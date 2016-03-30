@@ -76,11 +76,11 @@
                       settings.container === window) ? $window : $(settings.container);
 
         /* Fire one scroll event per scroll. Not one scroll event per image. */
-        if (0 === settings.event.indexOf("scroll")) {
-            $container.on(settings.event, function() {
-                return update();
-            });
-        }
+        //if (0 === settings.event.indexOf("scroll")) {
+        //    $container.on(settings.event, function() {
+        //        return update();
+        //    });
+        //}
 
         this.each(function() {
             var self = this;
