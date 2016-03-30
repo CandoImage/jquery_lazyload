@@ -142,9 +142,9 @@
         });
 
         /* Check if something appears when window is resized. */
-        $window.on("resize", function() {
-            update();
-        });
+        //$window.on("resize", function() {
+            //update();
+        //});
 
         /* With IOS5 force loading images when navigating with back button. */
         /* Non optimal workaround. */
